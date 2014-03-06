@@ -1,0 +1,11 @@
+mnt - simple sshfs connection manager
+
+1. Description
+The utility can be used in conjuction with con utility, both have a common
+configuration file so you don't need to export your already existing aliases.
+
+2. Usage
+	mnt <alias> [username]
+	mnt add <alias> <username>@<address>[:port]
+	mnt del <alias>
+
